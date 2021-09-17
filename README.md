@@ -24,4 +24,8 @@ Project link: [https://github.com/Manvendra5/English-to-Minionese-Translator](ht
 
 # Acknowledgements
 
--[funtranslations](https://funtranslations.com/api/) -[netlify](https://www.netlify.com/) -[emojipedia.org](https://emojipedia.org/)
+-[funtranslations](https://funtranslations.com/api/)
+
+-[netlify](https://www.netlify.com/)
+
+-[emojipedia.org](https://emojipedia.org/)
