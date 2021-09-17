@@ -1,9 +1,9 @@
 //Create query variables
 var translateButton = document.querySelector('#btn-translate');
 var inputText = document.querySelector('#input-txt');
-var outputText = document.querySelector('#output-text');
+var outputText = document.querySelector('#output-box');
 
-var translationAPIUrl = "https://api.funtranslations.com/translate/yoda.json";
+var translationAPIUrl = "https://api.funtranslations.com/translate/minion.json";
 
 //function for constructing the API URL
 function constructUrl(text) {
@@ -24,7 +24,7 @@ function handleClick () {
     var contructedURL = constructUrl(inputtxt);
     
     //3. use this url in fetch and dont forget to add .catch()
-    fetch(constructUrl(inputtxt))
+    fetch(contructedURL)
     .then(response => response.json())
     .then(json => outputText.innerText = json.contents.translated)
     .catch(errorHandler);
